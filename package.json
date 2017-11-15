@@ -1,0 +1,25 @@
+{
+  "name": "weather-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archisdiningrat/weather-check.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "archisdiningrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archisdiningrat/weather-check/issues"
+  },
+  "homepage": "https://github.com/archisdiningrat/weather-check#readme",
+  "dependencies": {
+    "eslint": "^4.11.0"
+  }
+}
