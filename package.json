@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/archisdiningrat/weather-check#readme",
   "dependencies": {
-    "eslint": "^4.11.0"
+    "axios": "^0.17.1",
+    "eslint": "^4.11.0",
+    "yargs": "^10.0.3"
   }
 }
