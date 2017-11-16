@@ -1,9 +1,12 @@
-const locationRepo = require('./libs/location-repo');
+const Promise = require('bluebird');
 
-locationRepo.search(process.argv[2] || 1)
-    .then(res => {
-        console.log(JSON.stringify(res, undefined, 2));
-    })
-    .catch(err => {
-        console.log(err);
-    });
+
+const space = Promise.coroutine(function*(name){
+    if(name !== 'archie') throw new Error('an error occured')
+    
+    return 'naisu'
+})
+
+space(process.argv[2] || 'angga')
+.then(() => console.log('success'))
+.catch(err => console.log(err.message))
